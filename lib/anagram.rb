@@ -10,8 +10,8 @@ class Anagram
       if word.split.sort == @word.split.sort
         mat << word
       end
+      mat
     end
-    mat
   end
   
   
